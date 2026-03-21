@@ -1,0 +1,32 @@
+{
+  "name": "openclaw-advanced-memory",
+  "version": "1.0.0",
+  "description": "OpenClaw Advanced Memory System - 从线性笔记到分层大脑",
+  "main": "start-advanced-memory-system.js",
+  "scripts": {
+    "start": "node start-advanced-memory-system.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openclaw",
+    "memory",
+    "ai",
+    "sqlite",
+    "cache",
+    "obsidian"
+  ],
+  "author": "大象",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^9.0.0",
+    "redis": "^4.6.0",
+    "lru-cache": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/openclaw-advanced-memory.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

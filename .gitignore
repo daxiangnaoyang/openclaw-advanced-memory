@@ -1,0 +1,57 @@
+# .gitignore
+
+# 依赖
+node_modules/
+package-lock.json
+yarn.lock
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 日志
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 备份
+*.backup
+*.bak
+
+# 构建输出
+dist/
+build/
+*.tgz
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 调试
+debug.log
+error.log
